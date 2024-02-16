@@ -9,7 +9,7 @@ import pandas as pd
 from PIL import Image
 
 # Load your image
-image = Image.open("/home/mahdi/my_env/streamlit/project/boston house price/tehran.jpg")
+image = Image.open("tehran.jpg")
 
 df = pd.read_csv("cleaned_data.csv")
 
