@@ -73,8 +73,8 @@ st.write(user_inpt)
 st.write("---")
 
 st.header("Predicted House Price")
-st.write(pd.DataFrame(ml_pipe.predict(user_inpt).round(0),columns=["Price"]))
+st.write(f"the price estimated:{ml_pipe.predict(user_inpt).round(0)} Tomans")
 
 st.write("""
-#### Trained and Developed my [Mahdi Zare](https://www.linkedin.com/in/mahdizare22/)
+#### Trained and Developed by [Mahdi Zare](https://www.linkedin.com/in/mahdizare22/)
           """)
