@@ -6,7 +6,6 @@ from sklearn.preprocessing import StandardScaler,OneHotEncoder,OrdinalEncoder
 from sklearn.model_selection import train_test_split
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
 from PIL import Image
 
 # Load your image
